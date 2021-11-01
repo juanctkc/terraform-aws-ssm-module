@@ -1,4 +1,4 @@
-# Terraform aws ecs autoscale
+# Terraform aws ssm module
 
 ## About
 
