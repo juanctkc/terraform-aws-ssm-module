@@ -34,7 +34,7 @@ locals {
 
 ## task definition secrets
 module "task_container_secrets" {
-  source         = "git@github.com:dmytro-dorofeiev/terraform-aws-ssm-module.git"
+  source         = "git::https://github.com/dmytro-dorofeiev/modules/terraform-aws-ssm-module.git"
   parameters     = local.task_container_secrets
   kms_key_id     = data.aws_kms_alias.default.arn
   ignore_changes = true
