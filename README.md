@@ -10,7 +10,7 @@ It has ability to create manual - without any tracking of updates and dynamic - 
 ```hcl
 locals {
   // Values that should be set manually and not overriden by terraform
-  manual_set_parameters = [
+  task_container_secrets = [
     // Backend
     {
       "prefix" = "/${var.environment}/backend"
