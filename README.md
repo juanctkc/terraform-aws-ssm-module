@@ -9,7 +9,7 @@ It has ability to create manual - without any tracking of updates and dynamic - 
 
 ```hcl
 locals {
-  // Values that should be set manually and not overriden by terraform
+  // Task definition secrets for ECS would be generated via output
   task_container_secrets = [
     // Backend
     {
